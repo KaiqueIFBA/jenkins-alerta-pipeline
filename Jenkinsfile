@@ -5,13 +5,7 @@ pipeline {
             steps {
                 echo "Executando etapa de build"
                 // Aqui você pode adicionar comandos de build ou testes, se necessário
-                    def speedTestResult = sh(script: "speedtest-cli --json", returnStdout: true).trim()
-
-                    def speedTestJson = new groovy.json.JsonSlurperClassic().parseText(speedTestResult)
-
-                    def downloadSpeedMbps = speedTestJson.download / 1000000 // Convert to Mbps
-
-                    echo "Download Speed: ${downloadSpeedMbps} Mbps"
+                
             }
         }
     }
