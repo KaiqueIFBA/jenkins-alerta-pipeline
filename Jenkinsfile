@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo "Executando etapa de build"
                 // Aqui você pode adicionar comandos de build ou testes, se necessário
-                pip install speedtest-cli
+            
             }
         }
     }
