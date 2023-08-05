@@ -14,7 +14,7 @@ pipeline {
             script {
                 def emailSubject = "Notificação de Pipeline"
                 def emailBody = "O pipeline foi executado com sucesso."
-                def recipients = "contatokaiqueandrade@gmail.com, bekahmarques17@gmail.com"
+                def recipients = "contatokaiqueandrade@gmail.com, bekahmarques17@gmail.com, tempodeestudar@gmail.com, diosmarcruz@gmail.com "
                 def sender = "equipedeltajenkinsnotificacao@hotmail.com"
 
                 if (currentBuild.resultIsBetterOrEqualTo("FAILURE")) {
