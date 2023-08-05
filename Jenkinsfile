@@ -26,7 +26,7 @@ pipeline {
                     recipientProviders: [[$class: 'DevelopersRecipientProvider']],
                     attachLog: true,
                     compressLog: true,
-                    replyTo: "bekahmarques17@gmail.com"
+                    replyTo: "contatokaiqueandrade@gmail.com"
                 )
             }
         }
